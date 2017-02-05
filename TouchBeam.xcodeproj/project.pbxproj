@@ -12,6 +12,7 @@
 		4E508FB61E45F2000015DC46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E508FB41E45F2000015DC46 /* Main.storyboard */; };
 		4E508FB81E45F2000015DC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E508FB71E45F2000015DC46 /* Assets.xcassets */; };
 		4E508FBB1E45F2000015DC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E508FB91E45F2000015DC46 /* LaunchScreen.storyboard */; };
+		4E508FC31E47B1EA0015DC46 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E508FC21E47B1EA0015DC46 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4E508FB71E45F2000015DC46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E508FBA1E45F2000015DC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E508FBC1E45F2000015DC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E508FC21E47B1EA0015DC46 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4E508FB01E45F2000015DC46 /* AppDelegate.swift */,
 				4E508FB21E45F2000015DC46 /* ViewController.swift */,
+				4E508FC21E47B1EA0015DC46 /* DrawingView.swift */,
 				4E508FB41E45F2000015DC46 /* Main.storyboard */,
 				4E508FB71E45F2000015DC46 /* Assets.xcassets */,
 				4E508FB91E45F2000015DC46 /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					4E508FAC1E45F2000015DC46 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VJT63E337K;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E508FC31E47B1EA0015DC46 /* DrawingView.swift in Sources */,
 				4E508FB31E45F2000015DC46 /* ViewController.swift in Sources */,
 				4E508FB11E45F2000015DC46 /* AppDelegate.swift in Sources */,
 			);
@@ -203,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -246,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -258,11 +263,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VJT63E337K;
 				INFOPLIST_FILE = TouchBeam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.TouchBeam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -270,11 +278,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VJT63E337K;
 				INFOPLIST_FILE = TouchBeam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.TouchBeam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

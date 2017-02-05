@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TouchBeam
 //
-//  Created by a.polunin on 04/02/2017.
+//  Created by a.tyurin on 04/02/2017.
 //  Copyright © 2017 a.tyurin. All rights reserved.
 //
 
